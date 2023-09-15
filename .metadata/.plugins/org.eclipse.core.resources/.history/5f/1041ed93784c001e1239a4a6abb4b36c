@@ -1,0 +1,12 @@
+package ifexample;
+
+public class AdmissionFee {
+
+	public static void main(String[] args) {
+		// 놀이공원 입장료 계산
+		// 미취학 아동: 1000, 초등: 2000, 중-고등: 2500, 일반: 3000
+		// 변수: 나이(age), 입장료(fee)
+
+	}
+
+}

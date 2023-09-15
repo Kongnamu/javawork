@@ -1,0 +1,16 @@
+package Operator;
+
+public class OperatorEx5 {
+
+	public static void main(String[] args) {
+		// 1 증가, 1 감소 연산자 (++, --)
+		int num = 10;
+		
+		num = num + 1;
+		
+		System.out.println(num);
+		
+
+	}
+
+}

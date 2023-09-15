@@ -1,0 +1,15 @@
+package Operator;
+
+public class OperatorEx1 {
+
+	public static void main(String[] args) {
+		// 산술 연산자
+		System.out.println(4 + 8); //12
+		System.out.println(4 - 8); //-4
+		System.out.println(4 * 8); //32
+		System.out.println(4 /(double)8); //0.5 : 형 변환(Type conversion)
+		
+
+	}
+
+}

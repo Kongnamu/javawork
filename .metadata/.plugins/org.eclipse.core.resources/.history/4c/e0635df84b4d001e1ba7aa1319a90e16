@@ -1,0 +1,16 @@
+package banking;
+
+public class Banking {
+
+	public static void main(String[] args) {
+		// 은행 입출금 업무 프로그램
+		// 1.예금 2.출금 3.잔고 4.종료
+		
+		// 메뉴 화면 출력
+		System.out.println("============================");
+		System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");		
+		System.out.println("============================");
+
+	}
+
+}

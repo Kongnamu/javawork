@@ -1,0 +1,29 @@
+package dates;
+
+import java.util.Calendar;
+
+public class CalendarTeal {
+
+	public static void main(String[] args) {
+		Calendar cal = Calendar.getInstance();
+		System.out.println(cal.toString());
+		
+		//년도 출력
+		int year = cal.get(Calendar.YEAR);
+		System.out.println(year + "년");
+		System.out.println(cal.get(Calendar.YEAR));
+
+		
+		//월 출력 (배열 기준으로 출력됨 0이 1월이므로 1을 더해줌)
+		int month = cal.get(Calendar.MONTH) + 1;
+		System.out.println(month + "월");
+		
+		//일 출력
+		int date = cal.get(Calendar.DATE);
+		System.out.println(date + "일");
+		
+		//요일 출력
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package statics;
+
+public class Student {
+	// 자동으로 학번 증가 (static 활용)
+	int serialNum = 1000;
+	int id;
+	String name;
+}

@@ -1,0 +1,12 @@
+package classes.methods;
+
+public class UseHello {
+
+	public static void main(String[] args) {
+		// hello 클래스 사용하고 싶을 때
+		Hello say = new Hello();
+		say.sayHello();
+
+	}
+
+}

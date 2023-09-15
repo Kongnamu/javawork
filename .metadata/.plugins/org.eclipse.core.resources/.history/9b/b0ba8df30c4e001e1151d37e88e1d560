@@ -1,0 +1,12 @@
+package dates;
+
+public class DateTest {
+
+	public static void main(String[] args) {
+		// Date 객체 생성
+		Date date = new Date();
+		System.out.println(date);
+
+	}
+
+}

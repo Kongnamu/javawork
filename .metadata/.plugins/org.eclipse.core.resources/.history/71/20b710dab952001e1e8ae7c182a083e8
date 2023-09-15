@@ -1,0 +1,9 @@
+package ke.or.iei.run;
+
+public class Start {
+	
+	Exam e = new Exam();
+
+	e.exam1();
+
+}

@@ -1,0 +1,12 @@
+package data;
+
+public class Var {
+
+	public static void main(String[] args) {
+		// 변수를 사용
+		Sytem.out.println(2023);
+		
+
+	}
+
+}

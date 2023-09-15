@@ -1,0 +1,30 @@
+package reference.subject2;
+
+import reference.subjects.Subject;
+
+public class Student {
+	private int studentId;      //int studentId = 0
+	private String studentName; //String studentName = null
+	private Subject[] subjects;
+	
+	public Student(int studentId, String studentName ) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+		subjects = new Subject[10]; // 과목을 담을 크기 10개 배열생성
+	}
+	
+	// 과목 추가 
+	public void addSubject(String name, int score) {
+		// 과목 개체를 생성해서 값(과목이름, 점수)을 저장함
+		Subject subject = new Subject();
+		subject.setSubjectName(name);
+		subject.setScorePoint(score);
+		
+	// 과목을 배열에 저장: 반복문으로 설정하여 자동 표기되게 진행
+	//subjects[0] = subject;
+		for(int i=0; i<subjects.length; i++) {
+			subjects[i] = subject;
+		}
+	}
+
+}

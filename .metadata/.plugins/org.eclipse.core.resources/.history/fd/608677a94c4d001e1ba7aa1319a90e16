@@ -1,0 +1,25 @@
+package banking;
+
+import java.util.Scanner;
+
+public class Banking {
+
+	public static void main(String[] args) {
+		// 은행 입출금 업무 프로그램
+		// 1.예금 2.출금 3.잔고 4.종료
+		
+		// 메뉴 화면 출력
+		Scanner sc = new Scanner(System.in);
+		int balance = 0; //잔고
+		
+		while(true) {
+		    System.out.println("============================");
+		    System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");		
+		    System.out.println("============================");
+		    
+		    int selNum = sc.nextInt();
+		}
+
+	} // main 끝
+
+}     // class 끝

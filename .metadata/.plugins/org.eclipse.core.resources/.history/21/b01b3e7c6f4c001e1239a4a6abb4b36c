@@ -1,0 +1,14 @@
+package data;
+
+public class TypeConversionTest {
+
+	public static void main(String[] args) {
+		// 형 변환 : 1)자동 변환, 2)강제 변환
+		int iNum = 20;
+		float fNum = iNum;
+		
+		System.out.println(iNum);
+
+	}
+
+}

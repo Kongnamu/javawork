@@ -1,0 +1,26 @@
+package constant;
+
+public class ConstantTest1 {
+
+	public static void main(String[] args) {
+		// 상수 선언 및 사용
+		// int maxNum = 100; 변수
+		final int MAX_NUM = 100; // 상수
+		// MAX_NUM = 1000; <- 이렇게 진행할시 에러남 왜냐하면 상수는 변경 불가하기 때문
+		
+		System.out.println(MAX_NUM);
+		
+		// 원의 넓이 = 반지름 * 반지름 * 원주율(PI)
+		// 변수: 반지름(radius), 지름(circleArea)
+		// 상수: PI
+		int radius = 5;
+		final double PI = 3.14;
+		double circleArea;
+		
+		circleArea = radius * radius * PI;
+		
+		System.out.println("원의 넓이: " + circleArea);
+
+	}
+
+}

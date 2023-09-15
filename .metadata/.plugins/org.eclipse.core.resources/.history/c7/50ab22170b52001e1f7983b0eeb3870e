@@ -1,0 +1,13 @@
+package banking.array;
+
+public class BankMain {
+
+	//계좌를 저장할 배열의 크기를 100개로 설정
+	static Account[] accounts = new Account[100]
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package objectarray.dooks;
+
+public class Book {
+	//필드
+	private String bookName;
+	private String author;
+	
+	// 생성자
+    public Book(String bookname, String author) {
+    	this.bookName = bookName;
+    	this.author = author;
+    }
+    
+    //책의 정보 풀력
+    public void showBookInfo() {
+    	System.out.println(bookName + ", " + author);
+    }
+}

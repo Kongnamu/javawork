@@ -1,0 +1,31 @@
+package customers;
+
+public class CustomerTest1 {
+
+	public static void main(String[] args) {
+		// 일반고객 1명, VIP고객 1명 객체 생성
+		Customer lee = new Customer();		
+		
+		// 입력
+		lee.setCustomerId(1001);
+		lee.setCustomerName("이순신");
+		
+		// 출력
+		System.out.println(lee.showCustomerInfo());
+		
+		System.out.println("===============================");
+		
+		VIPcustomer woo = new VIPcustomer();
+		
+		//입력
+		woo.setagentId(1010);
+		woo.setCustomerName("우영우");
+		woo.setagentId(7777);
+		
+		//출력
+		System.out.println(woo.showCustomerInfo());
+		
+
+	}
+
+}

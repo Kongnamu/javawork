@@ -1,0 +1,13 @@
+package Operator;
+
+public class OperatorEx4 {
+
+	public static void main(String[] args) {
+		// 논리 연산자
+		// &&(엠퍼샌드)
+		
+		System.out.println(4 > 5);
+
+	}
+
+}

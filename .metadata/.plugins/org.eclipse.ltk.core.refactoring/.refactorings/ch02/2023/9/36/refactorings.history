@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ifexample.AdmissionFree.java&apos; to &apos;AdmissionFee.java&apos;&#x0D;&#x0A;- Original project: &apos;ch02&apos;&#x0D;&#x0A;- Original element: &apos;ifexample.AdmissionFree.java&apos;&#x0D;&#x0A;- Renamed element: &apos;ifexample.AdmissionFee.java&apos;" description="Rename compilation unit &apos;AdmissionFree.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;ifexample{AdmissionFree.java" name="AdmissionFee.java" references="false" stamp="1693979003056" version="1.0"/>
+</session>

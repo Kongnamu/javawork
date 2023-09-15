@@ -1,0 +1,29 @@
+package kr.or.iei.model;
+
+
+// 회원 클래스(자료형) 정의
+public class User {
+	// 필드(속성)
+	private String id;
+	private String pwd;
+	private String name;
+
+	//set(입력), get(출력) 함수 : private 인경우만 사용?
+	public void setId(String id) {
+		this.id = id;
+		
+	}
+	
+	public String getId() {
+		return id;
+	}
+	
+	
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+	
+    public String getPwd() {
+    	return pwd;
+    }
+}

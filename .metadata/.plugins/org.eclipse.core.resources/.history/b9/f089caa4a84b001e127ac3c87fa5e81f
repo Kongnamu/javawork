@@ -1,0 +1,10 @@
+package hello;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		// 한줄 주석 - 문자를 출력하는 프로그램 만들기
+        System.out.print("Hello~ Java");
+	}
+
+}
