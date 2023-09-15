@@ -1,0 +1,18 @@
+package student;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		School school = School.getInstance();
+		
+		Student student1 = school.creatStudentNum();
+		Student student2 = school.creatStudentNum();
+		Student student3 = school.creatStudentNum();
+		
+		System.out.println("학번: " + student1.getStudentNum());
+		System.out.println("학번: " + student2.getStudentNum());
+		System.out.println("학번: " + student3.getStudentNum());
+
+	}
+
+}

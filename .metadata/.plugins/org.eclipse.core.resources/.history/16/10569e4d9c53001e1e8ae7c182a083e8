@@ -1,0 +1,19 @@
+package calctime;
+
+public class SystemTime {
+
+	public static void main(String[] args) {
+		//성능 테스트 : 소요 시간 측정 - ms, ns
+		//현재까지의 시간: ms(밀리초)
+		long start = System.currentTimeMillis();
+		long sum = 0;
+		for(int i = 1; i < 1000000; i++) {
+			sum += i;
+		}
+		
+		long end = System.currentTimeMillis();
+		System.out.println(sum); // 합계: 약 17억
+		System.out.println(end-start + "ms"); //약 17억을 더하는데 걸린 시간
+	}
+
+}
