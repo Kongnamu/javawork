@@ -3,7 +3,7 @@ package array2d;
 public class Array2dTest {
 
 	public static void main(String[] args) {
-		// 정수형 2차원 배열 선언
+		// 정수형 2차원 배열 선언 : 출력시 2중 for문 필요
 		int[][] arr = new int[2][3]; // 행:2, 열:3
 		
 		System.out.println(arr.length);    // 행의 크기

@@ -29,7 +29,7 @@ public class VIPCustomer extends Customer{
 		bonusPoint += (int)(price * bonusRatio);
 		return price;
 	}
-
+// 정보 출력
 	@Override
 	public String showCustomerInfo() {
 		return super.showCustomerInfo() + "\n전문 상담원 ID는 " + agentId + 
