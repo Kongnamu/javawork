@@ -12,6 +12,8 @@ public class CarTest {
 		
 		Car myCar = new AiCar();
 		myCar.run();
+		
+		
 	}
 
 }
