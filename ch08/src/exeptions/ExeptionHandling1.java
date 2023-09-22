@@ -11,7 +11,7 @@ public class ExeptionHandling1 {
 		System.out.println("[프로그램 시작]\n");
 		
 		printlength("지하철");
-		printlength(null);
+		//printlength(null);
 		
 		System.out.println("[프로그램 종료]");
 		

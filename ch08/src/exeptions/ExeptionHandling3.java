@@ -3,7 +3,7 @@ package exeptions; // 예외 처리
 public class ExeptionHandling3 {
 
 	public static void main(String[] args) {
-		//일반 예외: 컴파일 오류(컴파일러 체크)
+		//일반 예외: 컴파일 오류(컴파일러가 체크)
 		//try - catch()
 		//try - catch() - finally
 		try {
