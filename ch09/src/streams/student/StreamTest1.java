@@ -1,4 +1,4 @@
-package streams;
+package streams.student;
 
 import java.util.ArrayList;
 import java.util.Arrays;

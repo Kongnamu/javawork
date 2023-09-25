@@ -1,4 +1,4 @@
-package streams; //for, foreach 사용
+package streams.student; //for, foreach 사용
 
 import java.util.Arrays;
 import java.util.stream.Stream;
