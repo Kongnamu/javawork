@@ -10,6 +10,7 @@ public class FileCopyTest {
 
 	public static void main(String[] args) {
 		//close() 사용하지 않는 방법 : try ~ with ~ resource문
+		//바이트 단위로 읽어서 쓰기(복사) : 이미지
 		String originFile = "C:/File/harvest-1.png"; // 원본 파일
 		String copyFile = "C:/File/harvest-3.png";   // 사본 파일
 		long start, end;
@@ -19,10 +20,20 @@ public class FileCopyTest {
 				start = System.currentTimeMillis(); // 복사 전시간
 			
 			while(true) {
-				int num = is.read(); // 읽은 데이터
-				if(num == -1) break;
-				os.write(num); //파일에 쓰기
+				int data = is.read(); // 읽은 데이터
+				if(data == -1) break;
+				os.write(data); //파일에 쓰기 
 			}
+			/* byte[] data = new byte[1024];
+			
+			while(true) {
+				int readBytes = is.read(data); // 데이터를 읽은 바이트 수
+				if(readBytes == -1) break;
+				for(int i = 0; i < readBytes; i++) {
+					os.write(data[i]); 
+				}
+			} */
+	
 			os.flush(); // 버퍼 비우기|
 			
 			end = System.currentTimeMillis(); // 복사 후시간

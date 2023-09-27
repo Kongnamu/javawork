@@ -12,12 +12,13 @@ public class ReadExample1 {
 		try {
 			InputStream is = new FileInputStream("C:/File/test1.db");
 			
-			while(true) {
+			 while(true) {
 				int data = is.read();
 				if(data == -1)
 					break; //데이터가 없음
 				System.out.println(data);
 			}
+		
 			is.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
