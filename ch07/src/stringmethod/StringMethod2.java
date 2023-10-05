@@ -5,12 +5,12 @@ public class StringMethod2 {
 	public static void main(String[] args) {
 		//indexOf() 검색에 도움을 줌
 		//문자열이 시작되는 인덱스를 리턴한다.
-		String str = "Hello World Hello";
+		String str = "Hello World java";
 		
 		int val = str.indexOf("Hello"); // 앞에서부터 찾음
 		System.out.println(val);
 		
-		int val2 = str.lastIndexOf("Hello"); // 뒤에서부터 찾음
+		int val2 = str.lastIndexOf("java"); // 뒤에서부터 찾음
 		System.out.println(val2);
 		
 		int val3 = str.indexOf("ok"); // 찾는 문자가 없으면 -1을 리턴함
