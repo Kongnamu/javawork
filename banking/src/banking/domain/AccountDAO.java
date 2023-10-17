@@ -208,6 +208,9 @@ public class AccountDAO {
 	      
 	         String ano = scanner.nextLine();
 	         if(findAccount(ano) != null) {
+	        	 System.out.println("1.OK | 2.CANCEL");
+	        	 String menuNo = scanner.nextLine();
+	        	 if(menuNo.equals("1")) {
 	         try {
 	                conn = JDBCUtil.getConnection();
 	                String sql = "DELETE from account "
@@ -223,7 +226,11 @@ public class AccountDAO {
 	             }finally {
 	                JDBCUtil.close(conn, pstmt);
 	                  
-	             }   break;
+	             } 
+	         }else {
+	        	 System.out.println("삭제를 취소합니다.");
+	         }
+	        break;
 	         }else {
 	            System.out.println("계좌 번호 형식이 아닙니다. 다시입력해주세요 형식(00-00-000");
 	         }
@@ -241,11 +248,15 @@ public class AccountDAO {
 			System.out.println("계좌 번호: ");
 			String ano = scanner.nextLine();
 			if(findAccount(ano) != null) { //찾는 계좌가 있으면
-			//DB 처리	
+				Account account = findAccount(ano);
+				System.out.println("1개의 계좌를 찾았습니다.");
+				System.out.print("계좌번호: " + account.getAno() + "\t");
+				System.out.print("계좌주: " + account.getOwner() + "\t");
+				System.out.println("잔고: " + account.getBalance());	
 			
 				break;
 			}else {
-				System.out.println("결과 : 계좌가 없습니다.");
+				System.out.println("결과 : 계좌가 없습니다. 다시 입력해주세요");
 			}
 		} // while 끝
 			}
