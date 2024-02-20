@@ -27,11 +27,11 @@ public class UserInsertTest {
 	         		+ "VALUES (?, ?, ?, ?, ?)";
 	         pstnt = conn.prepareStatement(sql);
 	         // '?'값 지정
-	         pstnt.setString(1, "cloud2");
-	         pstnt.setString(2, "김구름");
-	         pstnt.setString(3, "u12345");
+	         pstnt.setString(1, "admin0000");
+	         pstnt.setString(2, "관리자");
+	         pstnt.setString(3, "a1234");
 	         pstnt.setInt(4, 38);
-	         pstnt.setString(5, "cloud2@cloud.com");
+	         pstnt.setString(5, "admin0000@cloud.com");
 	         
 	         //sql 실행
 	         int rows = pstnt.executeUpdate();
